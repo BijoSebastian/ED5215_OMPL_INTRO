@@ -1,3 +1,5 @@
+# Author: Bijo Sebastian
+
 from ompl import base as ob
 from ompl import geometric as og
 import matplotlib.pyplot as plt
@@ -45,7 +47,7 @@ def plan():
     #Create and set goal state
     goal = ob.State(space)
     goal[0] = 0.0
-    goal[1] = 6.0
+    goal[1] = 10.0
  
     ss.setStartAndGoalStates(start, goal)
 
