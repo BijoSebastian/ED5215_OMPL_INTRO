@@ -1,5 +1,9 @@
 # Author: Bijo Sebastian
 
+import sys
+from os.path import abspath, dirname, join
+sys.path.insert(0, '/home/asl-laptop2/ompl/py-bindings')
+
 from ompl import base as ob
 from ompl import geometric as og
 import matplotlib.pyplot as plt
