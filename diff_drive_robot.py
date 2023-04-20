@@ -4,6 +4,8 @@ from math import sin, cos
 import numpy as np
 from functools import partial
 
+#The following part is only needed if python is not able to find your ompl-python-bindings
+#In such case, explicitly add the path to python bindings (as installed on your system) onto os.path
 import sys
 from os.path import abspath, dirname, join
 sys.path.insert(0, '/home/asl-laptop2/ompl/py-bindings')
