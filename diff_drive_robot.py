@@ -1,8 +1,13 @@
 # Author: Mark Moll, modified by Bijo Sebastian
-  
+
 from math import sin, cos
 import numpy as np
 from functools import partial
+
+import sys
+from os.path import abspath, dirname, join
+sys.path.insert(0, '/home/asl-laptop2/ompl/py-bindings')
+  
 from ompl import base as ob
 from ompl import control as oc
 
